@@ -1,0 +1,46 @@
+[submodule "bundle/nerdtree"]
+    path = bundle/nerdtree
+    url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/typescript-vim"]
+    path = bundle/typescript-vim
+    url = https://github.com/leafgarland/typescript-vim.git
+[submodule "bundle/vim-airline-themes"]
+    path = bundle/vim-airline-themes
+    url = https://github.com/vim-airline/vim-airline-themes
+[submodule "bundle/vim-diff-enhanced"]
+    path = bundle/vim-diff-enhanced
+    url = https://github.com/chrisbra/vim-diff-enhanced.git
+[submodule "bundle/vim-fugitive"]
+    path = bundle/vim-fugitive
+    url = https://github.com/tpope/vim-fugitive.git
+[submodule "bundle/vim-gitgutter"]
+    path = bundle/vim-gitgutter
+    url = https://github.com/airblade/vim-gitgutter.git
+[submodule "bundle/vim-jade"]
+    path = bundle/vim-jade
+    url = https://github.com/digitaltoad/vim-jade.git
+[submodule "bundle/vim-json"]
+    path = bundle/vim-json
+    url = https://github.com/leshill/vim-json.git
+[submodule "bundle/vim-less"]
+    path = bundle/vim-less
+    url = https://github.com/groenewege/vim-less
+[submodule "bundle/vim-lua-ftplugin"]
+    path = bundle/vim-lua-ftplugin
+    url = https://github.com/xolox/vim-lua-ftplugin.git
+[submodule "bundle/vim-markdown"]
+    path = bundle/vim-markdown
+    url = https://github.com/plasticboy/vim-markdown.git
+[submodule "bundle/vim-misc"]
+    path = bundle/vim-misc
+    url = https://github.com/xolox/vim-misc.git
+[submodule "bundle/vim-mustache-handlebars"]
+    path = bundle/vim-mustache-handlebars
+    url = https://github.com/mustache/vim-mustache-handlebars.git
+[submodule "bundle/vim-pug"]
+    path = bundle/vim-pug
+    url = https://github.com/digitaltoad/vim-pug
+[submodule "bundle/vim-stylus"]
+    path = bundle/vim-stylus
+    url = https://github.com/wavded/vim-stylus.git
+
