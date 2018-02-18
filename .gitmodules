@@ -25,8 +25,8 @@
 [submodule "bundle/vim-less"]
     path = bundle/vim-less
     url = https://github.com/groenewege/vim-less
-[submodule "bundle/vim-lua-ftplugin"]
-    path = bundle/vim-lua-ftplugin
+[submodule "bundle/vim-lua-ftpplugin"]
+    path = bundle/vim-lua-ftpplugin
     url = https://github.com/xolox/vim-lua-ftplugin.git
 [submodule "bundle/vim-markdown"]
     path = bundle/vim-markdown
@@ -43,4 +43,3 @@
 [submodule "bundle/vim-stylus"]
     path = bundle/vim-stylus
     url = https://github.com/wavded/vim-stylus.git
-
