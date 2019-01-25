@@ -61,9 +61,9 @@ let g:airline_theme='powerlineish'
 let g:airline#extensions#tabline#enabled=1
 
 " spell
-"set spellfile=~/.vim/custom.dictionary.utf-8.add
-"setlocal spell spelllang=es
-"set nospell
+set spellfile=~/.vim/custom.dictionary.utf-8.add
+setlocal spell spelllang=es
+set nospell
 
 " navigation
 "nnoremap <C-h> <C-w>h

@@ -44,8 +44,12 @@
     path = bundle/vim-stylus
     url = https://github.com/wavded/vim-stylus.git
 [submodule "bundle/vim-nginx"]
-	path = bundle/vim-nginx
-	url = https://github.com/fatih/vim-nginx.git
+    path = bundle/vim-nginx
+    url = https://github.com/fatih/vim-nginx.git
 [submodule "bundle/conky-syntax"]
-	path = bundle/conky-syntax
-	url = https://github.com/smancill/conky-syntax.vim
+    path = bundle/conky-syntax
+    url = https://github.com/smancill/conky-syntax.vim
+[submodule "bundle/vim-es6"]
+    path = bundle/vim-es6
+    url = https://github.com/isRuslan/vim-es6.git
+
