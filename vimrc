@@ -51,8 +51,8 @@ set complete=.,w,b,u
 set backup
 set noswapfile
 
-set undodir=~/.vim/tmp/undo//     " undo files
-set backupdir=~/.vim/tmp/backup// " backups
+set undodir=~/.vim/tmp/undo/      " undo files
+set backupdir=~/.vim/tmp/backup/  " backups
 
 " airline
 let g:airline_powerline_fonts=1
@@ -104,4 +104,11 @@ let g:gitgutter_sign_added='▸'
 let g:gitgutter_sign_removed='◂'
 let g:gitgutter_sign_modified='◆'
 set signcolumn=yes
+
+" vim syntastic
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 1
+"let g:syntastic_javascript_checkers = ['eslint']
 
