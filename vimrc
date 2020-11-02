@@ -57,7 +57,7 @@ set backupdir=~/.vim/tmp/backup/  " backups
 " airline
 let g:airline_powerline_fonts=1
 let g:airline_theme='powerlineish'
-"let g:airline_section_b='%{strftime("%c")}%'
+let g:airline_section_b='%{strftime("%c")}%'
 let g:airline#extensions#tabline#enabled=1
 
 " spell
@@ -110,5 +110,17 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 1
+let g:syntastic_javascript_checkers = ['jshint']
 "let g:syntastic_javascript_checkers = ['eslint']
+"let g:syntastic_javascript_eslint_exec = 'eslint_d'
+"let g:syntastic_mode_map = { 'passive_filetypes': ['tex'] }
+
+"noremap <F5> :labove<cr>
+"noremap <F6> :lnext<cr>
+
+" vim minimap
+"let g:minimap_show='<leader>ms'
+"let g:minimap_update='<leader>mu'
+"let g:minimap_close='<leader>gc'
+"let g:minimap_toggle='<leader>gc'
 

@@ -1,6 +1,12 @@
+[submodule "bundle/conky-syntax"]
+    path = bundle/conky-syntax
+    url = https://github.com/smancill/conky-syntax.vim
 [submodule "bundle/nerdtree"]
     path = bundle/nerdtree
     url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/syntastic"]
+    path = bundle/syntastic
+    url = https://github.com/vim-syntastic/syntastic.git
 [submodule "bundle/typescript-vim"]
     path = bundle/typescript-vim
     url = https://github.com/leafgarland/typescript-vim.git
@@ -10,6 +16,9 @@
 [submodule "bundle/vim-diff-enhanced"]
     path = bundle/vim-diff-enhanced
     url = https://github.com/chrisbra/vim-diff-enhanced.git
+[submodule "bundle/vim-es6"]
+    path = bundle/vim-es6
+    url = https://github.com/isRuslan/vim-es6.git
 [submodule "bundle/vim-fugitive"]
     path = bundle/vim-fugitive
     url = https://github.com/tpope/vim-fugitive.git
@@ -31,28 +40,22 @@
 [submodule "bundle/vim-markdown"]
     path = bundle/vim-markdown
     url = https://github.com/plasticboy/vim-markdown.git
+[submodule "bundle/vim-minimap"]
+    path = bundle/vim-minimap
+    url = https://github.com/severin-lemaignan/vim-minimap.git
 [submodule "bundle/vim-misc"]
     path = bundle/vim-misc
     url = https://github.com/xolox/vim-misc.git
 [submodule "bundle/vim-mustache-handlebars"]
     path = bundle/vim-mustache-handlebars
     url = https://github.com/mustache/vim-mustache-handlebars.git
+[submodule "bundle/vim-nginx"]
+    path = bundle/vim-nginx
+    url = https://github.com/fatih/vim-nginx.git
 [submodule "bundle/vim-pug"]
     path = bundle/vim-pug
     url = https://github.com/digitaltoad/vim-pug
 [submodule "bundle/vim-stylus"]
     path = bundle/vim-stylus
     url = https://github.com/wavded/vim-stylus.git
-[submodule "bundle/vim-nginx"]
-    path = bundle/vim-nginx
-    url = https://github.com/fatih/vim-nginx.git
-[submodule "bundle/conky-syntax"]
-    path = bundle/conky-syntax
-    url = https://github.com/smancill/conky-syntax.vim
-[submodule "bundle/vim-es6"]
-    path = bundle/vim-es6
-    url = https://github.com/isRuslan/vim-es6.git
-[submodule "bundle/syntastic"]
-    path = bundle/syntastic
-    url = https://github.com/vim-syntastic/syntastic.git
 
