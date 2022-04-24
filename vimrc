@@ -1,5 +1,5 @@
 " general options
-filetype indent plugin on
+"filetype indent plugin on
 
 set nocompatible
 set number
@@ -75,6 +75,8 @@ set nospell
 noremap  <F2> :NERDTreeToggle<cr>
 inoremap <F2> <esc>:NERDTreeToggle<cr>
 
+let NERDTreeShowHidden=1
+
 augroup ps_nerdtree
     au!
 
@@ -110,10 +112,10 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 1
-let g:syntastic_javascript_checkers = ['jshint']
-"let g:syntastic_javascript_checkers = ['eslint']
-"let g:syntastic_javascript_eslint_exec = 'eslint_d'
-"let g:syntastic_mode_map = { 'passive_filetypes': ['tex'] }
+"let g:syntastic_javascript_checkers = ['jshint']
+let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_javascript_eslint_exec = 'eslint_d'
+let g:syntastic_mode_map = { 'passive_filetypes': ['tex'] }
 
 "noremap <F5> :labove<cr>
 "noremap <F6> :lnext<cr>
