@@ -58,4 +58,7 @@
 [submodule "bundle/vim-stylus"]
     path = bundle/vim-stylus
     url = https://github.com/wavded/vim-stylus.git
+[submodule "bundle/vimtex"]
+    path = bundle/vimtex
+    url = https://github.com/lervag/vimtex.git
 
