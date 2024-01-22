@@ -107,6 +107,15 @@ let g:gitgutter_sign_removed='◂'
 let g:gitgutter_sign_modified='◆'
 set signcolumn=yes
 
+" vim ale
+let g:ale_fixers = {
+\    '*': ['remove_trailing_lines', 'trim_whitespace'],
+\    'javascript': ['eslint'],
+\}
+
+" vim vimcommander
+noremap <silent> <F12> :call VimCommanderToggle()<CR>
+
 "noremap <F5> :labove<cr>
 "noremap <F6> :lnext<cr>
 
