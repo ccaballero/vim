@@ -40,6 +40,9 @@
 [submodule "bundle/vim-markdown"]
     path = bundle/vim-markdown
     url = https://github.com/plasticboy/vim-markdown.git
+[submodule "bundle/vim-markdown-preview"]
+    path = bundle/vim-markdown-preview
+    url = https://github.com/JamshedVesuna/vim-markdown-preview.git
 [submodule "bundle/vim-minimap"]
     path = bundle/vim-minimap
     url = https://github.com/severin-lemaignan/vim-minimap.git
@@ -61,4 +64,3 @@
 [submodule "bundle/vimtex"]
     path = bundle/vimtex
     url = https://github.com/lervag/vimtex.git
-

@@ -87,7 +87,7 @@ augroup ps_nerdtree
 augroup END
 
 let NERDTreeHighlightCursorline = 1
-let NERDTreeIgnore = ['.vim$', '\~$', '.*\.log$', '.*\.aux$', '.*\.pdf$', '.*\.bak$']
+let NERDTreeIgnore = ['.vim$', '\~$', '.*\.aux$', '.*\.pdf$', '.*\.bak$']
 
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
@@ -101,6 +101,10 @@ call pathogen#infect()
 " vim markdown
 let g:vim_markdown_folding_disabled=1
 
+" vim markdown-preview
+let g:vim_markdown_preview_github=1
+let g:vim_markdown_preview_browser='firefox'
+
 " vim gitgutter
 let g:gitgutter_sign_added='▸'
 let g:gitgutter_sign_removed='◂'
@@ -108,20 +112,22 @@ let g:gitgutter_sign_modified='◆'
 set signcolumn=yes
 
 " vim ale
+let g:ale_linters = {
+\    'javascript': ['eslint'],
+\}
 let g:ale_fixers = {
 \    '*': ['remove_trailing_lines', 'trim_whitespace'],
 \    'javascript': ['eslint'],
 \}
+noremap  <F7> :ALEPrevious<cr>
+noremap  <F8> :ALENext<cr>
 
 " vim vimcommander
 noremap <silent> <F12> :call VimCommanderToggle()<CR>
 
-"noremap <F5> :labove<cr>
-"noremap <F6> :lnext<cr>
-
-" vim minimap
-"let g:minimap_show='<leader>ms'
-"let g:minimap_update='<leader>mu'
-"let g:minimap_close='<leader>gc'
-"let g:minimap_toggle='<leader>gc'
+" vim-plug
+call plug#begin('~/.vim/plugged')
+    Plug 'prisma/vim-prisma'
+    Plug 'tranvansang/octave.vim'
+call plug#end()
 
