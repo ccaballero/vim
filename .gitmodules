@@ -4,51 +4,21 @@
 [submodule "bundle/conky-syntax"]
     path = bundle/conky-syntax
     url = https://github.com/smancill/conky-syntax.vim
-[submodule "bundle/nerdtree"]
-    path = bundle/nerdtree
-    url = https://github.com/scrooloose/nerdtree.git
-[submodule "bundle/typescript-vim"]
-    path = bundle/typescript-vim
-    url = https://github.com/leafgarland/typescript-vim.git
 [submodule "bundle/vim-airline-themes"]
     path = bundle/vim-airline-themes
     url = https://github.com/vim-airline/vim-airline-themes
-[submodule "bundle/vim-diff-enhanced"]
-    path = bundle/vim-diff-enhanced
-    url = https://github.com/chrisbra/vim-diff-enhanced.git
-[submodule "bundle/vim-es6"]
-    path = bundle/vim-es6
-    url = https://github.com/isRuslan/vim-es6.git
 [submodule "bundle/vim-fugitive"]
     path = bundle/vim-fugitive
     url = https://github.com/tpope/vim-fugitive.git
 [submodule "bundle/vim-gitgutter"]
     path = bundle/vim-gitgutter
     url = https://github.com/airblade/vim-gitgutter.git
-[submodule "bundle/vim-jade"]
-    path = bundle/vim-jade
-    url = https://github.com/digitaltoad/vim-jade.git
-[submodule "bundle/vim-json"]
-    path = bundle/vim-json
-    url = https://github.com/leshill/vim-json.git
 [submodule "bundle/vim-less"]
     path = bundle/vim-less
     url = https://github.com/groenewege/vim-less
-[submodule "bundle/vim-lua-ftpplugin"]
-    path = bundle/vim-lua-ftpplugin
-    url = https://github.com/xolox/vim-lua-ftplugin.git
-[submodule "bundle/vim-markdown"]
-    path = bundle/vim-markdown
-    url = https://github.com/plasticboy/vim-markdown.git
-[submodule "bundle/vim-markdown-preview"]
-    path = bundle/vim-markdown-preview
-    url = https://github.com/JamshedVesuna/vim-markdown-preview.git
 [submodule "bundle/vim-minimap"]
     path = bundle/vim-minimap
     url = https://github.com/severin-lemaignan/vim-minimap.git
-[submodule "bundle/vim-misc"]
-    path = bundle/vim-misc
-    url = https://github.com/xolox/vim-misc.git
 [submodule "bundle/vim-mustache-handlebars"]
     path = bundle/vim-mustache-handlebars
     url = https://github.com/mustache/vim-mustache-handlebars.git
