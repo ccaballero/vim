@@ -65,12 +65,6 @@ set spellfile=~/.vim/custom.dictionary.utf-8.add
 setlocal spell spelllang=es
 set nospell
 
-" navigation
-"nnoremap <C-h> <C-w>h
-"nnoremap <C-j> <C-w>j
-"nnoremap <C-k> <C-w>k
-"nnoremap <C-l> <C-w>l
-
 " nerdtree
 noremap  <F2> :NERDTreeToggle<cr>
 inoremap <F2> <esc>:NERDTreeToggle<cr>
@@ -115,12 +109,33 @@ let g:ale_fixers={
 noremap  <F7> :ALEPrevious<cr>
 noremap  <F8> :ALENext<cr>
 
-" vim vimcommander
-noremap <silent> <F12> :call VimCommanderToggle()<CR>
+" vim minimap
+let g:minimap_show='<Leader>mm'
+let g:minimap_close='<Leader>mc'
+let g:minimap_update='<Leader>mu'
+let g:minimap_toggle='<Leader>mt'
+let g:minimap_highlight='Visual'
+let g:minimap_width=18
 
-" vim-plug
-call plug#begin('~/.vim/plugged')
-    Plug 'prisma/vim-prisma'
-    Plug 'tranvansang/octave.vim'
-call plug#end()
+nnoremap <Leader>mm :Minimap<CR>
+nnoremap <Leader>mc :MinimapClose<CR>
+
+" open terminal
+function! OpenTerminalInCurrentDir() abort
+    let l:current_dir = expand('%:p:h')
+
+    if isdirectory(l:current_dir)
+        let l:old_dir = getcwd()
+
+        execute 'lcd ' . fnameescape(l:current_dir)
+
+        belowright terminal ++rows=12
+
+        execute 'lcd ' . fnameescape(l:old_dir)
+    else
+        belowright terminal ++rows=12
+    endif
+endfunction
+
+nnoremap <silent> <C-t> :call OpenTerminalInCurrentDir()<CR>
 
